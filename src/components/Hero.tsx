@@ -16,13 +16,13 @@ export default function Hero({ onBook }: Props) {
     <section id="home" className="relative min-h-screen overflow-hidden pt-28 md:pt-32">
       <div className="absolute inset-0">
         <Image
-          src="/hero-room.png"
+          src="/hero-room.jpeg"
           alt="Luxury room at Mehandli Home Stay"
           fill
           priority
-          className="object-cover object-center"
+          className="object-cover object-center brightness-95"
         />
-        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(6,11,18,0.18)_0%,rgba(6,11,18,0.62)_50%,rgba(6,11,18,0.9)_100%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(6,11,18,0.28)_0%,rgba(6,11,18,0.72)_50%,rgba(6,11,18,0.94)_100%)]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(216,179,90,0.18),transparent_38%)]" />
       </div>
 
